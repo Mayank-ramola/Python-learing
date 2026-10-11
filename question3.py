@@ -1,8 +1,10 @@
-#WAP to check if a number entered by the user id odd or even 
+#search word "learning" exist in the "practice.txt" file
 
-num = int(input("Enter the number: "))
-rem = num%2
-if( rem ==0):
-    print("Even number")
+
+f = open("practice.txt", "r")
+data = f.read()
+word = "learning"
+if (data.find(word) != -1):
+    print("found")
 else:
-    print("Odd number")
+    print("Not found")

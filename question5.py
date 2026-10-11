@@ -1,8 +1,20 @@
-#WAP to check if a number is multiple of 7 or not
+with open("number.txt","r") as f:
+    data = f.read()
+    print(data)
+    print(type(data))    
 
-num = int(input ("Enter the number: "))
-multi = num%7 
-if(multi==0):
-    print("Number is multiple of 7")
-else:
-    print("Number is not multipple 0f 7")
+    # num =""
+    # for i in range(len(data)):
+    #     if (data[i] == ","):
+    #         print(int(num))
+    #         num=""
+    #     else:
+    #         num+=data[i]
+    count =0
+    nums = data.split(",")
+    for val in nums:
+        if(int(val)%2 ==0):
+            count +=1
+
+
+print(count)            
