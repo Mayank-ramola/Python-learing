@@ -1,0 +1,2 @@
+file input read mode 
+python is the programming language
