@@ -1,5 +1,6 @@
-# WAP to input any word and printh its length
+#create a new file "practice.txt" using python. 
 
-str = input("enter any word: ")
-len = len(str)
-print(len)
+f = open("practice.txt", "w+")
+data = f.write("Hi everyone\nwe are learning  File I/O \nusing java\nI like programming in java.")
+f.read()
+print(data)

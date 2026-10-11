@@ -1,4 +1,7 @@
-#WAP to find the occurences of "$" in a string
+#change all the occurence of java with python
 
-str ="money sign $. $ has more value than rupee. $ nad $"
-print(str.count("$"))
+f = open("practice.txt", "r")
+data = f.read()
+
+new_data= data.replace("java", "python")
+print(new_data)

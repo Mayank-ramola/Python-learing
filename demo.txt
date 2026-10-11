@@ -1,2 +1,3 @@
-file input read mode 
-python is the programming language
+This is a Demo file
+Using this for python coding
+Storinf some words....123

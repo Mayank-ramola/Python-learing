@@ -1,0 +1,5 @@
+f = open("demo.txt", "w")
+data = f.write(str("hello world"))
+print(data)
+print(type(data))
+f.close()
